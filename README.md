@@ -1,2 +1,3 @@
-# display-firmware
-Arduino sketch to control the Adafruit NeoPixel Shield over serial communication
+# Display Firmware
+
+Arduino sketch to control a [Adafruit NeoPixel Shield](https://www.adafruit.com/product/3053) over serial communication.
