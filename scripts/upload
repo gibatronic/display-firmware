@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set -e
+
+. scripts/config
+
+arduino-cli \
+    compile \
+    sketch \
+    --fqbn arduino:avr:uno \
+    --verify
+
+arduino-cli \
+    upload \
+    sketch \
+    --fqbn "$FQBN" \
+    --port "$PORT"
