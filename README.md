@@ -2,4 +2,4 @@
 
 Arduino sketch to control a [Adafruit NeoPixel Shield](https://www.adafruit.com/product/3053) over serial communication.
 
-<img src="https://github.com/gibatronic/display-firmware/assets/819643/e3ccf9a7-c040-4bfa-9ca1-60cccbf99a3e" width="320">
+<img src="https://github.com/gibatronic/display-firmware/assets/819643/b4daa2b1-8d7c-4a18-94e1-374923796f72" width="320">
