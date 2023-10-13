@@ -11,9 +11,14 @@ Display::Display(
 
 void Display::setup() {
     shield.begin();
-    shield.show();
-    shield.setBrightness(51);
 };
+
+void Display::reset() {
+    color_index = 0;
+    led_index = 0;
+
+    shield.clear();
+}
 
 void Display::pushColor(byte color) {
     colors[color_index] = color;

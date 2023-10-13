@@ -1,6 +1,4 @@
-#ifndef DISPLAY_H
-#define DISPLAY_H
-
+#pragma once
 #include <Adafruit_NeoPixel.h>
 
 class Display {
@@ -12,8 +10,7 @@ private:
     byte leds;
 public:
     Display(byte leds = 40, byte pin = 6);
-    void setup(void);
+    void setup();
+    void reset();
     void pushColor(byte color);
 };
-
-#endif
