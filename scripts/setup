@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+. scripts/config
+
+arduino-cli core install "$CORE"
+arduino-cli lib install 'Adafruit NeoPixel'

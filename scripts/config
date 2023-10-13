@@ -1,2 +1,3 @@
-FQBN=arduino:avr:uno
+CORE=arduino:avr
+FQBN=$CORE:uno
 PORT=$(arduino-cli board list | grep "$FQBN" | cut -d ' ' -f 1)
