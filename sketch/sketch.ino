@@ -8,6 +8,7 @@ unsigned long lastSerialEvent = 0;
 void setup() {
     display.setup();
     Serial.begin(9600);
+    Serial.println("!");
 };
 
 void loop() {
